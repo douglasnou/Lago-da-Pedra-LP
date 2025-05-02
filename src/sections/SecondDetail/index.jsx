@@ -3,7 +3,7 @@ import styled from "./style.module.scss";
 
 export const SecondDetail = () => {
 
-    const videoId = "NCLAOKpPE04";
+    const videoId = "5lTjyfEP_Ok";
     const opts = {
         height:"344",
         width: "100%",
