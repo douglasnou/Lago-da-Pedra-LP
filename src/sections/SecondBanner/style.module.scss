@@ -1,0 +1,63 @@
+.Banner{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../assets/back-banner-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .ImgOne{
+        width: 50%;
+    }
+
+    .ImgTwo{
+        width: 40%;
+    }
+
+    h1{
+        margin: 20px auto;
+    }
+
+    img{
+        margin: 20px auto;
+    }
+
+    a{
+        max-width: 220px;
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(var(--green-tone-gradient), var(--green-tone-gradient-2));
+        border-radius: 14px;
+
+
+        div{
+            width: 90%;
+            margin: 5px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &:hover{
+            background: linear-gradient(var(--green-tone-gradient-2), var(--green-tone-gradient));
+
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .Banner{
+        h1{
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        .ImgOne, .ImgTwo{
+            width: 80%;
+        }
+    }
+}

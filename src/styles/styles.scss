@@ -1,0 +1,26 @@
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --another-font: "Montaga", serif;
+
+    --green-tone-1: #10676E;
+    --green-tone-2: #9DFF00;
+    --green-tone-3: #005641;
+    --green-tone-background-1: #0B666D;
+    --green-tone-background-2: #00939E;
+    --green-tone-gradient: #4AC34A;
+    --green-tone-gradient-2: #005A32;
+    --orange-tone: #EC7715;
+    --orange-tone-2: #DD6D01;
+    --orange-tone-3: #FF7800;
+    --orange-tone-back-1: #FF7800;
+    --orange-tone-back-2: #DE8739;
+    --white-tone: #FFFF;
+    --grey-tone: #323232;
+}
+
+body {
+    max-width: 3000px;
+    width: 100%;
+    max-height: 100vh;
+    height: 100%;
+}

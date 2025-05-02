@@ -1,33 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { About } from "./sections/About";
+import { Banner } from "./sections/Banner";
+import { Coroata } from "./sections/Coroata";
+import { Details } from "./sections/Details";
+import { EcoCasaOne } from "./sections/EcoCasaOne";
+import { EcoCasaTwo } from "./sections/EcoCasaTwo";
+import { EcoVille } from "./sections/EcoVille";
+import { KnowMore } from "./sections/KnowMore";
+import { Maranhao } from "./sections/Maranhao";
+import { Reasons } from "./sections/Reasons";
+import { SecondBanner } from "./sections/SecondBanner";
+import { SecondDetail } from "./sections/SecondDetail";
+import { Security } from "./sections/Security";
+import "../src/styles/index.scss";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Banner />
+      <About />
+      <Reasons />
+      <Details />
+      <EcoCasaOne />
+      <EcoCasaTwo />
+      <SecondBanner />
+      <SecondDetail />
+      <Coroata />
+      <EcoVille />
+      <Maranhao />
+      <KnowMore />
     </>
   )
 }

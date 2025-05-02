@@ -1,0 +1,22 @@
+.Banner{
+    width: 100%;
+    .BannerBig{
+        width: 100%;
+        display: block;
+    }
+    .BannerSmall{
+        width: 100%;
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .Banner{
+        .BannerBig{
+            display: none;
+        }
+        .BannerSmall{
+            display: block;
+        }
+    }
+}

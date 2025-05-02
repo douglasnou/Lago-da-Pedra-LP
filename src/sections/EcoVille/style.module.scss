@@ -1,0 +1,24 @@
+.Ecoville{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+
+    .Slide{
+        width: 90%;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .Ecoville{
+        
+        .Slide{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.Detail{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("../../assets//back-detail-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 600px){
+    .Detail{
+        div{
+            width: 95%;
+        }
+    }
+}

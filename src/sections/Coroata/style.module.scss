@@ -1,0 +1,91 @@
+.Coroata{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(11, 102, 109, 0.55) 25%, rgba(11, 102, 109, 0.55) 99.5%),  no-repeat url("../../assets/back-coroata.png");
+    background-size: cover;
+
+    .Container{
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .SubContainer{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+
+            h2{
+                text-align: left;
+            }
+            p{
+                text-align: left;
+
+                span{
+                    color: var(--orange-tone);
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .List{
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+
+            li{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border: 3px solid var(--orange-tone);
+                border-radius: 12px;
+                padding: 10px;
+                margin: 10px;
+
+                img{
+                    margin: 5px;
+                }
+            }
+        }
+
+    }
+}
+
+@media(max-width: 600px){
+    .Coroata{
+        .Container{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .SubContainer{
+                width: 90%;
+                align-items: center;
+
+                h2{
+                    width: 80%;
+                }
+                p{
+                    width: 80%;
+                }
+            }
+
+            .List{
+                width: 90%;
+                justify-content: center;
+
+                li{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

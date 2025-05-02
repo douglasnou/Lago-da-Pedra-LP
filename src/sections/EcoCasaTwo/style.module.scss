@@ -1,0 +1,70 @@
+.EcoCasa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(var(--orange-tone-back-1), var(--orange-tone-back-2));
+
+    .SubSection {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .Img{
+            width: 50%;
+        }
+        .Container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .SubContainer{
+                background: var(--white-tone);
+                border-radius: 60px;
+                margin: 20px 0;
+                padding: 40px;
+
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+                    
+                    li{
+                        display: flex;
+                        align-items: center;
+                        border: 1px solid var(--orange-tone-2);
+                        border-radius: 12px;
+                        width: 100%;
+                        padding: 20px;
+                        margin: 10px 0;
+
+                        p{
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px){
+    .EcoCasa{
+        .SubSection{
+            .Img{
+                width: 100%;
+            }
+
+            .Container{
+                width: 100%;
+            }
+        }
+    }
+}
