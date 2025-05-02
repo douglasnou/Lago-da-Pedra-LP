@@ -58,7 +58,7 @@ export const Reasons = () => {
                         {
                             EcoCasaSlide.map((slide) => (
                                 <SwiperSlide>
-                                    <img src={slide} />
+                                    <img src={slide} className={styled.ImgCarroussel} />
                                 </SwiperSlide>
                             ))
                         }
